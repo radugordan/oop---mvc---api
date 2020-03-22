@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=9">        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../images/logo.jpg">
+
+
+    <meta charset="utf-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+    <link rel="icon" type="image/png" href="../images/logo.jpg">
+    <link href="../css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eagle+Lake" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="profileStylesheet/style.css">
+    <script src="https://use.fontawesome.com/73772a8d7c.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/config.js"></script>
+    <script type="text/javascript" src ="../js/model/User.js"></script>
+    <script type="text/javascript" src ="../js/model/Users.js"></script>
+    <script type="text/javascript" src="../js/view/logout.js"></script>
+    <script type="text/javascript" src="../js/view/profile.js"></script>
+    <script type="text/javascript" src="../js/model/Course.js"></script>
+    <script type="text/javascript" src="../js/model/Courses.js"></script>
+    <script type="text/javascript" src="../js/view/studentCourses.js"></script>
+ 
+</head>
+    <body>
+         <header>
+     <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="courses.html"><img src="../images/logo.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+         
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+              
+            <li><a href="profile.html"><i class="fa fa-user-o" aria-hidden="true"></i>User Information</a></li>
+            <li><a href="editProfile.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit Profile </a></li>
+            <li id="logout" ><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Sign Out</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+       
+        <div class="container">
+            <div class="row profile-info">
+                
+                <div class="col-sm-4 col-xs-4 descript">
+                    
+                    <img class="profilePic">   
+                </div>
+               
+                 <div class="col-sm-8 col-xs-4 info">
+                    <div>    
+                        <h4>Name:</h4>
+                        <p class="fname"></p>                   
+                    </div>
+                     <div>
+                        <hr>
+                         <h4>Phone:</h4>
+                        <p class="phone"></p>
+                    </div>    
+                        <hr>
+                        <h4>Email:</h4>
+                        <p class="email"></p>
+                </div>
+            </div>
+        </div>
+        <div class="container courses">
+            <div class="row course-container">
+          
+            </div>
+        </div>
+     <footer>
+        <div class="container-fluid">
+
+        <ul class="grid" >
+            <li><a href="#" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-snapchat-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-pinterest-square"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+        <p>&copy;Radu Gordan 2017<br> &copy;Nord Logic</p>
+        </div>
+    </footer>
+        
+    </body>
